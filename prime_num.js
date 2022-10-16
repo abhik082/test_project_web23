@@ -1,12 +1,12 @@
 // Prime-Number;
-let count=1;
+let count=0;
 let num=10
 for(let i=1; i<=num; i++){
  if(num%i==0){
  count++;
 }
 if(count==2){
-console.log("yes");
+console.log("Yes");
 } else {
-console.log("no");
+console.log("No");
 }
